@@ -26,6 +26,14 @@ __decorate([
     (0, typeorm_1.OneToMany)(() => sub_category_entity_1.SubCategory, subCategory => subCategory.category),
     __metadata("design:type", Array)
 ], Category.prototype, "subCategories", void 0);
+__decorate([
+    (0, typeorm_1.CreateDateColumn)({ type: "timestamp", default: () => "CURRENT_TIMESTAMP(6)" }),
+    __metadata("design:type", Date)
+], Category.prototype, "created_at", void 0);
+__decorate([
+    (0, typeorm_1.UpdateDateColumn)({ type: "timestamp", default: () => "CURRENT_TIMESTAMP(6)", onUpdate: "CURRENT_TIMESTAMP(6)" }),
+    __metadata("design:type", Date)
+], Category.prototype, "updated_at", void 0);
 Category = __decorate([
     (0, typeorm_1.Entity)()
 ], Category);

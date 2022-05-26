@@ -4,12 +4,43 @@
 /* eslint-disable jsx-a11y/role-supports-aria-props */
 /* eslint-disable jsx-a11y/alt-text */
 import { Menu, Search } from "@material-ui/icons";
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import "./style.scss";
+import api from './../../../constants/api';
+interface SubCategories {
+    title: string
+    id: string
+}
+interface Category {
+    title: string
+    id: string
+    subCategories: SubCategories
+}
+interface State {
+    dataCategory: []
+}
 
 export default function HeaderLayout() {
     const [isMenuBar, setIsMenuBar] = useState<Boolean>(false);
+    const [state, setState] = useState<State>({
+        dataCategory: []
+    })
 
+    async function getDataList() {
+        try {
+            const response = await api.get('/category')
+            const { categories: dataCategory } = response.data
+            setState((prev) => ({ ...prev, dataCategory }))
+        } catch (err) {
+        }
+    }
+    console.log(state)
+
+    useEffect(() => {
+        getDataList()
+    }, [])
+
+    console.log(state.dataCategory.map((item: any, key) => item.title))
     return (
         <Fragment>
             <div className="Header_topBanner__1xD-2" >
@@ -96,7 +127,7 @@ export default function HeaderLayout() {
                                                         <Menu />
                                                     </svg>
                                                 </button>
-                                                <ul className={isMenuBar ? " styles_menu-header__Y8j9L styles_active-menu__1jZqM" : "styles_menu-header__Y8j9L" }>
+                                                <ul className={isMenuBar ? " styles_menu-header__Y8j9L styles_active-menu__1jZqM" : "styles_menu-header__Y8j9L"}>
                                                     <li className="item-menu  tracking-navbar-item">
                                                         <a title="Kinh Doanh" href="/vn/chuyen-muc/kinh-doanh" className="tracking-navbar-item">
                                                             Kinh Doanh
@@ -199,6 +230,11 @@ export default function HeaderLayout() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="nav-bar_navbarContainer__mp9sv ">
+                    {state.dataCategory.map((item: Category, key: number) => <a className="nav-bar_navbarItem__JEO2e tracking-home_nav_bar" title={item.title} href="#" key={item.id}>
+                        {item.title}
+                    </a>)}
                 </div>
             </div>
         </Fragment>

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Search } from "@material-ui/icons";
 import { Fragment } from "react";
 

@@ -36,7 +36,10 @@ export class CategoryService {
   async getCategories() {
     try {
       const categories = await this.categoryRepository.find({
-        relations:['subCategories']
+        relations:['subCategories'],
+        order:{
+          created_at:'DESC',
+        }
       })
       return { categories };
     } catch (error) {

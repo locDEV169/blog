@@ -34,13 +34,11 @@ export default function HeaderLayout() {
         } catch (err) {
         }
     }
-    console.log(state)
 
     useEffect(() => {
         getDataList()
     }, [])
 
-    console.log(state.dataCategory.map((item: any, key) => item.title))
     return (
         <Fragment>
             <div className="Header_topBanner__1xD-2" >

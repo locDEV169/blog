@@ -1,0 +1,166 @@
+.styles_verticalVideo__2n8Au h3 {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #292929;
+    cursor: pointer;
+    display: -webkit-box;
+    margin: 8px 0 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.styles_verticalVideo__2n8Au .high-light {
+    --tw-text-opacity: 1;
+    color: rgb(12 93 255 / var(--tw-text-opacity));
+}
+.styles_title_medium__FASLK {
+    font-size: 20px;
+    line-height: 28px;
+}
+.styles_title_large__yacVX {
+    font-size: 32px;
+    line-height: 44px;
+}
+.styles_featureImgVideo__20LtO {
+    cursor: pointer;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.styles_featureImgVideo__20LtO img {
+    border: 0.5px solid #d9d9d9 !important;
+    border-radius: 8px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.styles_playlist__35HCc {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: #7a7a7a;
+    display: -webkit-box;
+    font-weight: 400;
+    margin: 28px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+.styles_playlist_medium__3qFus {
+    font-size: 12px;
+    line-height: 16px;
+}
+.styles_playlist_large__1a7aM {
+    font-size: 14px;
+    line-height: 24px;
+}
+.styles_verticalVideo_flex__2MMJC {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.styles_verticalVideo_flex__2MMJC .styles_featureImgVideo__20LtO {
+    flex: 0 0 calc(50% - 16px);
+    margin: 0;
+}
+.styles_verticalVideo_flex__2MMJC .styles_infoVideo__1Cltl {
+    margin-left: 32px;
+}
+.styles_verticalVideo_flex__2MMJC .styles_playlist_large__1a7aM,
+.styles_verticalVideo_flex__2MMJC .styles_playlist_medium__3qFus {
+    margin: 0 0 6px;
+}
+.styles_iconPlay__22eTJ {
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.styles_iconPlay_large__1b-Fg {
+    height: 64px;
+    width: 64px;
+}
+.styles_iconPlay_large__1b-Fg svg {
+    height: 32px;
+    width: 32px;
+}
+.styles_iconPlay_medium__2NSUz {
+    height: 48px;
+    width: 48px;
+}
+.styles_footerCard__1uR1l {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.styles_footerCard__1uR1l p {
+    color: #757575;
+    margin: 0;
+}
+.styles_footerCard__1uR1l p:first-child {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.styles_footerCard__1uR1l p:first-child,
+.styles_footerCard__1uR1l p:first-child span {
+    font-weight: 400;
+}
+.styles_footerCard_medium__1KWkJ p {
+    font-size: 12px;
+    line-height: 16px;
+}
+.styles_footerCard_large__26cJ1 p {
+    font-size: 14px;
+    line-height: 24px;
+}
+@media (max-width: 768px) {
+    .styles_playlist__35HCc {
+        margin: 20px 0 0;
+    }
+    .styles_verticalVideo_flex__2MMJC .styles_featureImgVideo__20LtO {
+        flex: 0 0 40%;
+        margin: 0;
+    }
+    .styles_verticalVideo_flex__2MMJC .styles_infoVideo__1Cltl {
+        margin-left: 16px;
+    }
+    .styles_iconPlay__22eTJ {
+        border-width: 1px;
+    }
+    .styles_iconPlay_large__1b-Fg {
+        height: 48px;
+        width: 48px;
+    }
+    .styles_iconPlay_medium__2NSUz {
+        height: 32px;
+        width: 32px;
+    }
+    .styles_iconPlay_medium__2NSUz svg {
+        height: 20px;
+        width: 20px;
+    }
+    .styles_infoVideo__1Cltl .styles_title_medium__FASLK {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+    .styles_infoVideo__1Cltl .styles_title_large__yacVX {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+    .styles_infoVideo__1Cltl .styles_footerCard__1uR1l p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 576px) {
+    .styles_infoVideo__1Cltl .styles_title_large__yacVX,
+    .styles_infoVideo__1Cltl .styles_title_medium__FASLK {
+        min-height: auto !important;
+    }
+}

@@ -2122,14 +2122,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: PoppinsVN, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 a {
     --tw-text-opacity: 1;
     color: rgb(12 93 255 / var(--tw-text-opacity));
 }
 p {
-    font-family: PoppinsVN, sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
@@ -2218,7 +2218,7 @@ button:focus {
     }
     .lg\:typo-700_48pt,
     .lg\:typo-700_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-700_48pt {
         font-size: 48px;
@@ -2232,7 +2232,7 @@ button:focus {
     }
     .lg\:typo-700_32pt,
     .lg\:typo-700_40pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-700_32pt {
         font-size: 32px;
@@ -2246,7 +2246,7 @@ button:focus {
     }
     .lg\:typo-700_20pt,
     .lg\:typo-700_24pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-700_20pt {
         font-size: 20px;
@@ -2260,7 +2260,7 @@ button:focus {
     }
     .lg\:typo-600_40pt,
     .lg\:typo-600_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-600_40pt {
         font-size: 40px;
@@ -2268,7 +2268,7 @@ button:focus {
         line-height: 1.4em;
     }
     .lg\:typo-600_32pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 32px;
         font-weight: 600;
         line-height: 1.5em;
@@ -2286,7 +2286,7 @@ button:focus {
     }
     .lg\:typo-600_24pt,
     .lg\:typo-600_26pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-600_24pt {
         font-size: 24px;
@@ -2300,7 +2300,7 @@ button:focus {
     }
     .lg\:typo-600_16pt,
     .lg\:typo-600_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-600_16pt {
         font-size: 16px;
@@ -2314,7 +2314,7 @@ button:focus {
     }
     .lg\:typo-600_13pt,
     .lg\:typo-600_14pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-600_13pt {
         font-size: 13px;
@@ -2328,7 +2328,7 @@ button:focus {
     }
     .lg\:typo-600_11pt,
     .lg\:typo-600_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-600_11pt {
         font-size: 11px;
@@ -2342,7 +2342,7 @@ button:focus {
     }
     .lg\:typo-500_14pt,
     .lg\:typo-500_56pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-500_56pt {
         font-size: 56px;
@@ -2356,7 +2356,7 @@ button:focus {
     }
     .lg\:typo-500_64pt,
     .lg\:typo-btn_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-btn_16pt {
         font-size: 16px;
@@ -2370,7 +2370,7 @@ button:focus {
     }
     .lg\:typo-btn_14pt,
     .lg\:typo-btn_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-btn_14pt {
         font-size: 14px;
@@ -2378,7 +2378,7 @@ button:focus {
         line-height: 1.7142857142857142em;
     }
     .lg\:typo-btn_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 1.3333333333333333em;
@@ -2404,7 +2404,7 @@ button:focus {
     }
     .lg\:typo-body_14pt,
     .lg\:typo-body_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .lg\:typo-body_14pt {
         font-weight: 400;
@@ -2425,7 +2425,7 @@ button:focus {
     }
     .lg\:typo-caption_12pt,
     .xl\:typo-700_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-700_64pt {
         font-size: 64px;
@@ -2440,7 +2440,7 @@ button:focus {
     }
     .xl\:typo-700_40pt,
     .xl\:typo-700_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-700_40pt {
         font-size: 40px;
@@ -2454,7 +2454,7 @@ button:focus {
     }
     .xl\:typo-700_24pt,
     .xl\:typo-700_32pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-700_24pt {
         font-size: 24px;
@@ -2468,7 +2468,7 @@ button:focus {
     }
     .xl\:typo-600_64pt,
     .xl\:typo-700_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-600_64pt {
         font-size: 64px;
@@ -2482,7 +2482,7 @@ button:focus {
     }
     .xl\:typo-600_32pt,
     .xl\:typo-600_40pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-600_32pt {
         font-size: 32px;
@@ -2502,7 +2502,7 @@ button:focus {
     }
     .xl\:typo-600_24pt,
     .xl\:typo-600_26pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-600_24pt {
         font-size: 24px;
@@ -2516,7 +2516,7 @@ button:focus {
     }
     .xl\:typo-600_16pt,
     .xl\:typo-600_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-600_16pt {
         font-size: 16px;
@@ -2530,7 +2530,7 @@ button:focus {
     }
     .xl\:typo-600_13pt,
     .xl\:typo-600_14pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-600_13pt {
         font-size: 13px;
@@ -2544,7 +2544,7 @@ button:focus {
     }
     .xl\:typo-600_11pt,
     .xl\:typo-600_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-600_11pt {
         font-size: 11px;
@@ -2558,7 +2558,7 @@ button:focus {
     }
     .xl\:typo-500_14pt,
     .xl\:typo-500_56pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-500_56pt {
         font-size: 56px;
@@ -2572,7 +2572,7 @@ button:focus {
     }
     .xl\:typo-500_64pt,
     .xl\:typo-btn_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-btn_16pt {
         font-size: 16px;
@@ -2586,7 +2586,7 @@ button:focus {
     }
     .xl\:typo-btn_14pt,
     .xl\:typo-btn_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-btn_14pt {
         font-size: 14px;
@@ -2594,7 +2594,7 @@ button:focus {
         line-height: 1.7142857142857142em;
     }
     .xl\:typo-btn_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 1.3333333333333333em;
@@ -2620,7 +2620,7 @@ button:focus {
     }
     .xl\:typo-body_14pt,
     .xl\:typo-body_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xl\:typo-body_14pt {
         font-weight: 400;
@@ -2635,7 +2635,7 @@ button:focus {
         font-weight: 500;
     }
     .xl\:typo-caption_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.3333333333333333em;
@@ -2675,7 +2675,7 @@ button:focus {
     }
     .md\:typo-700_48pt,
     .md\:typo-700_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-700_48pt {
         font-size: 48px;
@@ -2689,7 +2689,7 @@ button:focus {
     }
     .md\:typo-700_32pt,
     .md\:typo-700_40pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-700_32pt {
         font-size: 32px;
@@ -2703,7 +2703,7 @@ button:focus {
     }
     .md\:typo-700_20pt,
     .md\:typo-700_24pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-700_20pt {
         font-size: 20px;
@@ -2717,7 +2717,7 @@ button:focus {
     }
     .md\:typo-600_40pt,
     .md\:typo-600_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-600_40pt {
         font-size: 40px;
@@ -2725,7 +2725,7 @@ button:focus {
         line-height: 1.4em;
     }
     .md\:typo-600_32pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 32px;
         font-weight: 600;
         line-height: 1.5em;
@@ -2743,7 +2743,7 @@ button:focus {
     }
     .md\:typo-600_24pt,
     .md\:typo-600_26pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-600_24pt {
         font-size: 24px;
@@ -2757,7 +2757,7 @@ button:focus {
     }
     .md\:typo-600_16pt,
     .md\:typo-600_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-600_16pt {
         font-size: 16px;
@@ -2771,7 +2771,7 @@ button:focus {
     }
     .md\:typo-600_13pt,
     .md\:typo-600_14pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-600_13pt {
         font-size: 13px;
@@ -2785,7 +2785,7 @@ button:focus {
     }
     .md\:typo-600_11pt,
     .md\:typo-600_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-600_11pt {
         font-size: 11px;
@@ -2799,7 +2799,7 @@ button:focus {
     }
     .md\:typo-500_14pt,
     .md\:typo-500_56pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-500_56pt {
         font-size: 56px;
@@ -2813,7 +2813,7 @@ button:focus {
     }
     .md\:typo-500_64pt,
     .md\:typo-btn_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-btn_16pt {
         font-size: 16px;
@@ -2827,7 +2827,7 @@ button:focus {
     }
     .md\:typo-btn_14pt,
     .md\:typo-btn_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-btn_14pt {
         font-size: 14px;
@@ -2835,7 +2835,7 @@ button:focus {
         line-height: 1.7142857142857142em;
     }
     .md\:typo-btn_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 1.3333333333333333em;
@@ -2861,7 +2861,7 @@ button:focus {
     }
     .md\:typo-body_14pt,
     .md\:typo-body_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .md\:typo-body_14pt {
         font-weight: 400;
@@ -2876,7 +2876,7 @@ button:focus {
         font-weight: 500;
     }
     .md\:typo-caption_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.3333333333333333em;
@@ -2926,7 +2926,7 @@ button:focus {
     }
     .sm\:typo-700_48pt,
     .sm\:typo-700_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-700_48pt {
         font-size: 48px;
@@ -2940,7 +2940,7 @@ button:focus {
     }
     .sm\:typo-700_32pt,
     .sm\:typo-700_40pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-700_32pt {
         font-size: 32px;
@@ -2954,7 +2954,7 @@ button:focus {
     }
     .sm\:typo-700_20pt,
     .sm\:typo-700_24pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-700_20pt {
         font-size: 20px;
@@ -2968,7 +2968,7 @@ button:focus {
     }
     .sm\:typo-600_40pt,
     .sm\:typo-600_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-600_40pt {
         font-size: 40px;
@@ -2976,7 +2976,7 @@ button:focus {
         line-height: 1.4em;
     }
     .sm\:typo-600_32pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 32px;
         font-weight: 600;
         line-height: 1.5em;
@@ -2994,7 +2994,7 @@ button:focus {
     }
     .sm\:typo-600_24pt,
     .sm\:typo-600_26pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-600_24pt {
         font-size: 24px;
@@ -3008,7 +3008,7 @@ button:focus {
     }
     .sm\:typo-600_16pt,
     .sm\:typo-600_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-600_16pt {
         font-size: 16px;
@@ -3022,7 +3022,7 @@ button:focus {
     }
     .sm\:typo-600_13pt,
     .sm\:typo-600_14pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-600_13pt {
         font-size: 13px;
@@ -3036,7 +3036,7 @@ button:focus {
     }
     .sm\:typo-600_11pt,
     .sm\:typo-600_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-600_11pt {
         font-size: 11px;
@@ -3050,7 +3050,7 @@ button:focus {
     }
     .sm\:typo-500_14pt,
     .sm\:typo-500_56pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-500_56pt {
         font-size: 56px;
@@ -3064,7 +3064,7 @@ button:focus {
     }
     .sm\:typo-500_64pt,
     .sm\:typo-btn_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-btn_16pt {
         font-size: 16px;
@@ -3078,7 +3078,7 @@ button:focus {
     }
     .sm\:typo-btn_14pt,
     .sm\:typo-btn_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-btn_14pt {
         font-size: 14px;
@@ -3086,7 +3086,7 @@ button:focus {
         line-height: 1.7142857142857142em;
     }
     .sm\:typo-btn_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 1.3333333333333333em;
@@ -3112,7 +3112,7 @@ button:focus {
     }
     .sm\:typo-body_14pt,
     .sm\:typo-body_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .sm\:typo-body_14pt {
         font-weight: 400;
@@ -3127,7 +3127,7 @@ button:focus {
         font-weight: 500;
     }
     .sm\:typo-caption_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.3333333333333333em;
@@ -3181,7 +3181,7 @@ button:focus {
     }
     .xs\:typo-700_48pt,
     .xs\:typo-700_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-700_48pt {
         font-size: 48px;
@@ -3195,7 +3195,7 @@ button:focus {
     }
     .xs\:typo-700_32pt,
     .xs\:typo-700_40pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-700_32pt {
         font-size: 32px;
@@ -3209,7 +3209,7 @@ button:focus {
     }
     .xs\:typo-700_20pt,
     .xs\:typo-700_24pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-700_20pt {
         font-size: 20px;
@@ -3223,7 +3223,7 @@ button:focus {
     }
     .xs\:typo-600_40pt,
     .xs\:typo-600_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-600_40pt {
         font-size: 40px;
@@ -3231,7 +3231,7 @@ button:focus {
         line-height: 1.4em;
     }
     .xs\:typo-600_32pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 32px;
         font-weight: 600;
         line-height: 1.5em;
@@ -3249,7 +3249,7 @@ button:focus {
     }
     .xs\:typo-600_24pt,
     .xs\:typo-600_26pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-600_24pt {
         font-size: 24px;
@@ -3263,7 +3263,7 @@ button:focus {
     }
     .xs\:typo-600_16pt,
     .xs\:typo-600_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-600_16pt {
         font-size: 16px;
@@ -3277,7 +3277,7 @@ button:focus {
     }
     .xs\:typo-600_13pt,
     .xs\:typo-600_14pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-600_13pt {
         font-size: 13px;
@@ -3291,7 +3291,7 @@ button:focus {
     }
     .xs\:typo-600_11pt,
     .xs\:typo-600_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-600_11pt {
         font-size: 11px;
@@ -3305,7 +3305,7 @@ button:focus {
     }
     .xs\:typo-500_14pt,
     .xs\:typo-500_56pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-500_56pt {
         font-size: 56px;
@@ -3319,7 +3319,7 @@ button:focus {
     }
     .xs\:typo-500_64pt,
     .xs\:typo-btn_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-btn_16pt {
         font-size: 16px;
@@ -3333,7 +3333,7 @@ button:focus {
     }
     .xs\:typo-btn_14pt,
     .xs\:typo-btn_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-btn_14pt {
         font-size: 14px;
@@ -3341,7 +3341,7 @@ button:focus {
         line-height: 1.7142857142857142em;
     }
     .xs\:typo-btn_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 1.3333333333333333em;
@@ -3367,7 +3367,7 @@ button:focus {
     }
     .xs\:typo-body_14pt,
     .xs\:typo-body_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .xs\:typo-body_14pt {
         font-weight: 400;
@@ -3382,7 +3382,7 @@ button:focus {
         font-weight: 500;
     }
     .xs\:typo-caption_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.3333333333333333em;
@@ -3486,7 +3486,7 @@ button:focus {
     }
     .msm\:typo-700_48pt,
     .msm\:typo-700_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-700_48pt {
         font-size: 48px;
@@ -3500,7 +3500,7 @@ button:focus {
     }
     .msm\:typo-700_32pt,
     .msm\:typo-700_40pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-700_32pt {
         font-size: 32px;
@@ -3514,7 +3514,7 @@ button:focus {
     }
     .msm\:typo-700_20pt,
     .msm\:typo-700_24pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-700_20pt {
         font-size: 20px;
@@ -3528,7 +3528,7 @@ button:focus {
     }
     .msm\:typo-600_40pt,
     .msm\:typo-600_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-600_40pt {
         font-size: 40px;
@@ -3536,7 +3536,7 @@ button:focus {
         line-height: 1.4em;
     }
     .msm\:typo-600_32pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 32px;
         font-weight: 600;
         line-height: 1.5em;
@@ -3554,7 +3554,7 @@ button:focus {
     }
     .msm\:typo-600_24pt,
     .msm\:typo-600_26pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-600_24pt {
         font-size: 24px;
@@ -3568,7 +3568,7 @@ button:focus {
     }
     .msm\:typo-600_16pt,
     .msm\:typo-600_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-600_16pt {
         font-size: 16px;
@@ -3582,7 +3582,7 @@ button:focus {
     }
     .msm\:typo-600_13pt,
     .msm\:typo-600_14pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-600_13pt {
         font-size: 13px;
@@ -3596,7 +3596,7 @@ button:focus {
     }
     .msm\:typo-600_11pt,
     .msm\:typo-600_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-600_11pt {
         font-size: 11px;
@@ -3610,7 +3610,7 @@ button:focus {
     }
     .msm\:typo-500_14pt,
     .msm\:typo-500_56pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-500_56pt {
         font-size: 56px;
@@ -3624,7 +3624,7 @@ button:focus {
     }
     .msm\:typo-500_64pt,
     .msm\:typo-btn_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-btn_16pt {
         font-size: 16px;
@@ -3638,7 +3638,7 @@ button:focus {
     }
     .msm\:typo-btn_14pt,
     .msm\:typo-btn_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-btn_14pt {
         font-size: 14px;
@@ -3646,7 +3646,7 @@ button:focus {
         line-height: 1.7142857142857142em;
     }
     .msm\:typo-btn_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 1.3333333333333333em;
@@ -3672,7 +3672,7 @@ button:focus {
     }
     .msm\:typo-body_14pt,
     .msm\:typo-body_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .msm\:typo-body_14pt {
         font-weight: 400;
@@ -3687,7 +3687,7 @@ button:focus {
         font-weight: 500;
     }
     .msm\:typo-caption_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.3333333333333333em;
@@ -3710,7 +3710,7 @@ button:focus {
     }
     .mmd\:typo-700_48pt,
     .mmd\:typo-700_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-700_48pt {
         font-size: 48px;
@@ -3724,7 +3724,7 @@ button:focus {
     }
     .mmd\:typo-700_32pt,
     .mmd\:typo-700_40pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-700_32pt {
         font-size: 32px;
@@ -3738,7 +3738,7 @@ button:focus {
     }
     .mmd\:typo-700_20pt,
     .mmd\:typo-700_24pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-700_20pt {
         font-size: 20px;
@@ -3752,7 +3752,7 @@ button:focus {
     }
     .mmd\:typo-600_40pt,
     .mmd\:typo-600_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-600_40pt {
         font-size: 40px;
@@ -3760,7 +3760,7 @@ button:focus {
         line-height: 1.4em;
     }
     .mmd\:typo-600_32pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 32px;
         font-weight: 600;
         line-height: 1.5em;
@@ -3778,7 +3778,7 @@ button:focus {
     }
     .mmd\:typo-600_24pt,
     .mmd\:typo-600_26pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-600_24pt {
         font-size: 24px;
@@ -3792,7 +3792,7 @@ button:focus {
     }
     .mmd\:typo-600_16pt,
     .mmd\:typo-600_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-600_16pt {
         font-size: 16px;
@@ -3806,7 +3806,7 @@ button:focus {
     }
     .mmd\:typo-600_13pt,
     .mmd\:typo-600_14pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-600_13pt {
         font-size: 13px;
@@ -3820,7 +3820,7 @@ button:focus {
     }
     .mmd\:typo-600_11pt,
     .mmd\:typo-600_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-600_11pt {
         font-size: 11px;
@@ -3834,7 +3834,7 @@ button:focus {
     }
     .mmd\:typo-500_14pt,
     .mmd\:typo-500_56pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-500_56pt {
         font-size: 56px;
@@ -3848,7 +3848,7 @@ button:focus {
     }
     .mmd\:typo-500_64pt,
     .mmd\:typo-btn_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-btn_16pt {
         font-size: 16px;
@@ -3862,7 +3862,7 @@ button:focus {
     }
     .mmd\:typo-btn_14pt,
     .mmd\:typo-btn_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-btn_14pt {
         font-size: 14px;
@@ -3870,7 +3870,7 @@ button:focus {
         line-height: 1.7142857142857142em;
     }
     .mmd\:typo-btn_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 1.3333333333333333em;
@@ -3896,7 +3896,7 @@ button:focus {
     }
     .mmd\:typo-body_14pt,
     .mmd\:typo-body_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mmd\:typo-body_14pt {
         font-weight: 400;
@@ -3911,7 +3911,7 @@ button:focus {
         font-weight: 500;
     }
     .mmd\:typo-caption_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.3333333333333333em;
@@ -3934,7 +3934,7 @@ button:focus {
     }
     .mlg\:typo-700_48pt,
     .mlg\:typo-700_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-700_48pt {
         font-size: 48px;
@@ -3948,7 +3948,7 @@ button:focus {
     }
     .mlg\:typo-700_32pt,
     .mlg\:typo-700_40pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-700_32pt {
         font-size: 32px;
@@ -3962,7 +3962,7 @@ button:focus {
     }
     .mlg\:typo-700_20pt,
     .mlg\:typo-700_24pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-700_20pt {
         font-size: 20px;
@@ -3976,7 +3976,7 @@ button:focus {
     }
     .mlg\:typo-600_40pt,
     .mlg\:typo-600_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-600_40pt {
         font-size: 40px;
@@ -3984,7 +3984,7 @@ button:focus {
         line-height: 1.4em;
     }
     .mlg\:typo-600_32pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 32px;
         font-weight: 600;
         line-height: 1.5em;
@@ -4002,7 +4002,7 @@ button:focus {
     }
     .mlg\:typo-600_24pt,
     .mlg\:typo-600_26pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-600_24pt {
         font-size: 24px;
@@ -4016,7 +4016,7 @@ button:focus {
     }
     .mlg\:typo-600_16pt,
     .mlg\:typo-600_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-600_16pt {
         font-size: 16px;
@@ -4030,7 +4030,7 @@ button:focus {
     }
     .mlg\:typo-600_13pt,
     .mlg\:typo-600_14pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-600_13pt {
         font-size: 13px;
@@ -4044,7 +4044,7 @@ button:focus {
     }
     .mlg\:typo-600_11pt,
     .mlg\:typo-600_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-600_11pt {
         font-size: 11px;
@@ -4058,7 +4058,7 @@ button:focus {
     }
     .mlg\:typo-500_14pt,
     .mlg\:typo-500_56pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-500_56pt {
         font-size: 56px;
@@ -4072,7 +4072,7 @@ button:focus {
     }
     .mlg\:typo-500_64pt,
     .mlg\:typo-btn_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-btn_16pt {
         font-size: 16px;
@@ -4086,7 +4086,7 @@ button:focus {
     }
     .mlg\:typo-btn_14pt,
     .mlg\:typo-btn_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-btn_14pt {
         font-size: 14px;
@@ -4094,7 +4094,7 @@ button:focus {
         line-height: 1.7142857142857142em;
     }
     .mlg\:typo-btn_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 1.3333333333333333em;
@@ -4120,7 +4120,7 @@ button:focus {
     }
     .mlg\:typo-body_14pt,
     .mlg\:typo-body_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mlg\:typo-body_14pt {
         font-weight: 400;
@@ -4135,7 +4135,7 @@ button:focus {
         font-weight: 500;
     }
     .mlg\:typo-caption_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.3333333333333333em;
@@ -4158,7 +4158,7 @@ button:focus {
     }
     .mxl\:typo-700_48pt,
     .mxl\:typo-700_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-700_48pt {
         font-size: 48px;
@@ -4172,7 +4172,7 @@ button:focus {
     }
     .mxl\:typo-700_32pt,
     .mxl\:typo-700_40pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-700_32pt {
         font-size: 32px;
@@ -4186,7 +4186,7 @@ button:focus {
     }
     .mxl\:typo-700_20pt,
     .mxl\:typo-700_24pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-700_20pt {
         font-size: 20px;
@@ -4200,7 +4200,7 @@ button:focus {
     }
     .mxl\:typo-600_40pt,
     .mxl\:typo-600_64pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-600_40pt {
         font-size: 40px;
@@ -4208,7 +4208,7 @@ button:focus {
         line-height: 1.4em;
     }
     .mxl\:typo-600_32pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 32px;
         font-weight: 600;
         line-height: 1.5em;
@@ -4226,7 +4226,7 @@ button:focus {
     }
     .mxl\:typo-600_24pt,
     .mxl\:typo-600_26pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-600_24pt {
         font-size: 24px;
@@ -4240,7 +4240,7 @@ button:focus {
     }
     .mxl\:typo-600_16pt,
     .mxl\:typo-600_20pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-600_16pt {
         font-size: 16px;
@@ -4254,7 +4254,7 @@ button:focus {
     }
     .mxl\:typo-600_13pt,
     .mxl\:typo-600_14pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-600_13pt {
         font-size: 13px;
@@ -4268,7 +4268,7 @@ button:focus {
     }
     .mxl\:typo-600_11pt,
     .mxl\:typo-600_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-600_11pt {
         font-size: 11px;
@@ -4282,7 +4282,7 @@ button:focus {
     }
     .mxl\:typo-500_14pt,
     .mxl\:typo-500_56pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-500_56pt {
         font-size: 56px;
@@ -4296,7 +4296,7 @@ button:focus {
     }
     .mxl\:typo-500_64pt,
     .mxl\:typo-btn_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-btn_16pt {
         font-size: 16px;
@@ -4310,7 +4310,7 @@ button:focus {
     }
     .mxl\:typo-btn_14pt,
     .mxl\:typo-btn_48pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-btn_14pt {
         font-size: 14px;
@@ -4318,7 +4318,7 @@ button:focus {
         line-height: 1.7142857142857142em;
     }
     .mxl\:typo-btn_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 600;
         line-height: 1.3333333333333333em;
@@ -4344,7 +4344,7 @@ button:focus {
     }
     .mxl\:typo-body_14pt,
     .mxl\:typo-body_16pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
     }
     .mxl\:typo-body_14pt {
         font-weight: 400;
@@ -4359,7 +4359,7 @@ button:focus {
         font-weight: 500;
     }
     .mxl\:typo-caption_12pt {
-        font-family: PoppinsVN, sans-serif;
+        font-family: Poppins, sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.3333333333333333em;
@@ -4506,39 +4506,39 @@ button:focus {
 }
 @font-face {
     font-display: swap;
-    font-family: PoppinsVN;
+    font-family: Poppins;
     font-weight: 400;
-    src: url(/static/fonts/PoppinsVN-WOFF2/PoppinsVN-400.woff2) format("woff2"),
-        url(/fonts/Poppins/PoppinsVN-400.ttf) format("truetype");
+    src: url(/static/fonts/Poppins-WOFF2/Poppins-400.woff2) format("woff2"),
+        url(/fonts/Poppins/Poppins-400.ttf) format("truetype");
 }
 @font-face {
     font-display: swap;
-    font-family: PoppinsVN;
+    font-family: Poppins;
     font-weight: 500;
-    src: url(/static/fonts/PoppinsVN-WOFF2/PoppinsVN-500.woff2) format("woff2"),
-        url(/fonts/Poppins/PoppinsVN-500.ttf) format("truetype");
+    src: url(/static/fonts/Poppins-WOFF2/Poppins-500.woff2) format("woff2"),
+        url(/fonts/Poppins/Poppins-500.ttf) format("truetype");
 }
 @font-face {
     font-display: swap;
-    font-family: PoppinsVN;
+    font-family: Poppins;
     font-weight: 600;
-    src: url(/static/fonts/PoppinsVN-WOFF2/PoppinsVN-600.woff2) format("woff2"),
-        url(/fonts/Poppins/PoppinsVN-600.ttf) format("truetype");
+    src: url(/static/fonts/Poppins-WOFF2/Poppins-600.woff2) format("woff2"),
+        url(/fonts/Poppins/Poppins-600.ttf) format("truetype");
 }
 @font-face {
     font-display: swap;
-    font-family: PoppinsVN;
+    font-family: Poppins;
     font-style: italic;
     font-weight: 600;
-    src: url(/static/fonts/PoppinsVN-WOFF2/PoppinsVN-600-italic.woff2)
+    src: url(/static/fonts/Poppins-WOFF2/Poppins-600-italic.woff2)
         format("woff2");
 }
 @font-face {
     font-display: swap;
-    font-family: PoppinsVN;
+    font-family: Poppins;
     font-weight: 700;
-    src: url(/static/fonts/PoppinsVN-WOFF2/PoppinsVN-700.woff2) format("woff2"),
-        url(/fonts/Poppins/PoppinsVN-700.ttf) format("truetype");
+    src: url(/static/fonts/Poppins-WOFF2/Poppins-700.woff2) format("woff2"),
+        url(/fonts/Poppins/Poppins-700.ttf) format("truetype");
 }
 @font-face {
     font-display: swap;
@@ -4555,7 +4555,7 @@ button:focus {
 }
 body,
 button {
-    font-family: PoppinsVN, Noto Sans, sans-serif;
+    font-family: Poppins, Noto Sans, sans-serif;
     font-weight: 400;
     margin: 0;
     overflow-anchor: none;

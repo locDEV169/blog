@@ -1,0 +1,27 @@
+.login-form {
+    width: 368px;
+    #normal_login {
+        &_email {
+            padding: 25px 15px;
+        }
+        &_password {
+            padding: 20px 0px;
+        }
+    }
+    .login-form-button {
+        color: #fff;
+        border-color: #00773e;
+        background-color: #00773e;
+        text-shadow: none;
+        &:hover {
+            color: #fff;
+            border-color: #009e52;
+            background-color: #009e52;
+        }
+    }
+    .login-button-form .ant-form-item-control-input-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

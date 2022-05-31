@@ -7,6 +7,7 @@ import { Menu, Search } from "@material-ui/icons";
 import React, { Fragment, useState, useEffect } from "react";
 import "./style.scss";
 import api from './../../../constants/api';
+import { Link } from 'react-router-dom';
 interface SubCategories {
     title: string
     id: string
@@ -111,11 +112,13 @@ export default function HeaderLayout() {
                                             </button>
                                         </div>
                                         <div className="header-action-item mr-4 tracking-btn-login-article-detail">
-                                            <button type="button" className="styles_btn__1CpdT styles_btn-medium__1pU1Q styles_btn--default__eE97u styles_color--primary__2hQHw tracking-btn-login-article-detail" aria-label="Login">
-                                                <div className="styles_content-medium__1DXcn tracking-btn-login-article-detail flex items-center">
-                                                    Đăng nhập
-                                                </div>
-                                            </button>
+                                            <Link to='/login'>
+                                                <button type="button" className="styles_btn__1CpdT styles_btn-medium__1pU1Q styles_btn--default__eE97u styles_color--primary__2hQHw tracking-btn-login-article-detail" aria-label="Login">
+                                                    <div className="styles_content-medium__1DXcn tracking-btn-login-article-detail flex items-center">
+                                                        Đăng nhập
+                                                    </div>
+                                                </button>
+                                            </Link>
                                         </div>
                                         <div className="header-action-item">
                                             <div className="styles_block-menu-header__2q3Xf tracking-dropdown-navbar">

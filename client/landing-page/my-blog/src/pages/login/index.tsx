@@ -9,13 +9,14 @@ import { default as Form } from 'antd/es/form';
 import 'antd/es/form/style/index.css';
 import { default as Input } from 'antd/es/input';
 import 'antd/es/input/style/index.css';
-import { default as message } from 'antd/es/message'
-import 'antd/es/message/style/index.css'
+import { default as message } from 'antd/es/message';
+import 'antd/es/message/style/index.css';
 import LoginGooglePage from 'components/auth/login.component';
-import React from "react";
-import './style.scss'
-import api from './../../constants/api';
 import Cookies from 'js-cookie';
+import React from "react";
+import api from './../../constants/api';
+import './custom.scss';
+import './style.scss';
 
 interface User {
     email?: string

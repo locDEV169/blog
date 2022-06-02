@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Search } from "@material-ui/icons";
+import { Facebook, Instagram, LinkedIn, YouTube } from "@material-ui/icons";
 import { Fragment } from "react";
 
 export default function FooterLayout() {
@@ -66,26 +66,26 @@ export default function FooterLayout() {
                 <div className="NewFooter_groupLinkSocial__1RIOc flex justify-start items-center">
                   <a href="https://www.facebook.com/vietcetera/">
                     {/* <svg className="svg-icon undefined undefined" width="24" height="24" viewBox="0 0 24 24" fill="#757575"><use xlink:href="#iconFacebook"></use></svg> */}
-                    <Search className="svg-icon undefined tracking-search-icon-article-detail" />
+                    <Facebook className="svg-icon undefined undefined" width="24" height="24" viewBox="0 0 24 24" style={{ color: "#757575" }} />
                   </a>
                   <a href="https://www.facebook.com/vietcetera/">
                     {/* <svg className="svg-icon undefined undefined" width="24" height="24" viewBox="0 0 24 24" fill="#757575"><use xlink:href="#iconFacebook"></use></svg> */}
-                    <Search className="svg-icon undefined tracking-search-icon-article-detail" />
+                    <Instagram className="svg-icon undefined undefined" style={{ color: "#757575" }} />
                   </a>
                   <a href="https://www.facebook.com/vietcetera/">
                     {/* <svg className="svg-icon undefined undefined" width="24" height="24" viewBox="0 0 24 24" fill="#757575"><use xlink:href="#iconFacebook"></use></svg> */}
-                    <Search className="svg-icon undefined tracking-search-icon-article-detail" />
+                    <LinkedIn className="svg-icon undefined undefined" style={{ color: "#757575" }} />
                   </a>
                   <a href="https://www.facebook.com/vietcetera/">
                     {/* <svg className="svg-icon undefined undefined" width="24" height="24" viewBox="0 0 24 24" fill="#757575"><use xlink:href="#iconFacebook"></use></svg> */}
-                    <Search className="svg-icon undefined tracking-search-icon-article-detail" />
+                    <YouTube className="svg-icon undefined undefined" style={{ color: "#757575" }} />
                   </a>
                   <a
                     className="inline-block cursor-pointer duration-300"
                     href="https://www.facebook.com/vietcetera/"
                   >
                     {/* <svg className="svg-icon undefined undefined" width="24" height="24" viewBox="0 0 24 24" fill="#757575"><use xlink:href="#iconFacebook"></use></svg> */}
-                    <Search className="svg-icon undefined tracking-search-icon-article-detail" />
+                    <span className="flex items-center h-[inherit] w-[inherit]">RSS</span>
                   </a>
                 </div>
               </div>

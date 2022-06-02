@@ -126,7 +126,7 @@ export default function HeaderLayout() {
                                                     <use xlinkHref="#iconSearch"></use>
                                                     <Search className="#iconSearch"/>
                                                 </svg> */}
-                                                <Search className="svg-icon undefined tracking-search-icon-article-detail" />
+                                                <Search className="svg-icon undefined tracking-search-icon-article-detail" style={{color: "gray"}} />
                                             </a>
                                         </div>
                                         {getUserName ? (<Fragment>

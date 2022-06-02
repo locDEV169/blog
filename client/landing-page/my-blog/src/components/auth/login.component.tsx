@@ -35,13 +35,17 @@ export default function LoginGooglePage() {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    const responseGoogle = (response: GoogleLoginResponse | GoogleLoginResponseOffline) => {
+    const responseGoogle = (response: GoogleLoginResponse | GoogleLoginResponseOffline | any) => {
         if ('accessToken' in response) {
             'accessToken' in response || checkUser ? setState({ isSignedIn: true }) : setState({ isSignedIn: false })
             setCookie("accessToken", response.tokenId, 86400);
             setCookie("user", JSON.stringify(response.profileObj), 86400);
         } else {
+            'accessToken' in response || checkUser ? setState({ isSignedIn: true }) : setState({ isSignedIn: false })
+            setCookie("accessToken", response.tokenId, 86400);
+            setCookie("user", JSON.stringify(response.profileObj), 86400);
         }
+        window.location.href = '/'
     }
 
     const setCookie = (username: string, value: string, expires: number) => {

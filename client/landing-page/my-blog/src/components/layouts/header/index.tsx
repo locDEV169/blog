@@ -3,29 +3,47 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/role-supports-aria-props */
 /* eslint-disable jsx-a11y/alt-text */
-import { Menu, Search } from "@material-ui/icons";
-import React, { Fragment, useState, useEffect } from "react";
-import "./style.scss";
+import { LogoutOutlined, UserOutlined } from '@ant-design/icons';
+import { AccountBalanceWallet, BookmarksOutlined, Menu, Search } from "@material-ui/icons";
+import Cookies from "js-cookie";
+import React, { Fragment, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import api from './../../../constants/api';
-import { Link } from 'react-router-dom';
+import "./style.scss";
+
 interface SubCategories {
     title: string
     id: string
 }
+
 interface Category {
     title: string
     id: string
     subCategories: SubCategories
 }
+
 interface State {
     dataCategory: []
 }
 
+interface UserCookie {
+    id?: string
+    name?: string
+    role?: string
+    type?: string
+    avatar?: string
+    imageUrl?: string
+    account?: string
+}
+
 export default function HeaderLayout() {
     const [isMenuBar, setIsMenuBar] = useState<Boolean>(false);
+    const [isMenuBarUser, setIsMenuBarUser] = useState<Boolean>(false);
     const [state, setState] = useState<State>({
         dataCategory: []
     })
+    const getUserName: UserCookie = Cookies.get("user") ? JSON.parse(Cookies.get("user") || '') : '';
+    console.log(getUserName)
 
     async function getDataList() {
         try {
@@ -39,6 +57,13 @@ export default function HeaderLayout() {
     useEffect(() => {
         getDataList()
     }, [])
+
+    const logOut = () => {
+        console.log('logout')
+        Cookies.remove('accessToken')
+        Cookies.remove('user')
+        window.location.href = '/'
+    }
 
     return (
         <Fragment>
@@ -104,22 +129,86 @@ export default function HeaderLayout() {
                                                 <Search className="svg-icon undefined tracking-search-icon-article-detail" />
                                             </a>
                                         </div>
-                                        <div className="flex mx-4 tracking-btn-register-article-detail">
-                                            <button type="button" className="styles_btn__1CpdT styles_btn-medium__1pU1Q styles_btn--text__3i2gd styles_color--primary__2hQHw tracking-btn-register-article-detail" aria-label="Register">
-                                                <div className="styles_content-medium__1DXcn tracking-btn-register-article-detail flex items-center">
-                                                    Đăng ký
-                                                </div>
-                                            </button>
-                                        </div>
-                                        <div className="header-action-item mr-4 tracking-btn-login-article-detail">
-                                            <Link to='/login'>
-                                                <button type="button" className="styles_btn__1CpdT styles_btn-medium__1pU1Q styles_btn--default__eE97u styles_color--primary__2hQHw tracking-btn-login-article-detail" aria-label="Login">
-                                                    <div className="styles_content-medium__1DXcn tracking-btn-login-article-detail flex items-center">
-                                                        Đăng nhập
+                                        {getUserName ? (<Fragment>
+                                            <div className="styles_authBookmark__is0pH">
+                                                <BookmarksOutlined fill='#757575' width='24' height='24' />
+                                            </div>
+                                            <div className="menu-user_sectionUser__1Q2os">
+                                                <span className="menu-user_avatar__HX8s3" onClick={() => setIsMenuBarUser(!isMenuBarUser)}>
+                                                    <div style={{ display: 'inline-block', maxWidth: '100%', overflow: 'hidden', position: 'relative', boxSizing: 'border-box', margin: '0px' }}>
+                                                        <div style={{ display: 'block', boxSizing: 'border-box', maxWidth: '100%' }}>
+                                                            <img
+                                                                src={getUserName.avatar}
+                                                                style={{ maxWidth: '100%', display: 'block', }} />
+                                                        </div>
                                                     </div>
-                                                </button>
-                                            </Link>
-                                        </div>
+                                                </span>
+                                                {isMenuBarUser && <ul className="menu-user_container__2lJ2g menu-user_containerActive__3lZ9M">
+                                                    <li className='menu-user_profileItem__2au9q'>
+                                                        <div className='menu-user_profileWrapper__23mIT'>
+                                                            <span className='menu-user_avatarInBox__dzltK'>
+                                                                <div style={{ display: 'inline-block', maxWidth: '100%', overflow: 'hidden', position: 'relative', boxSizing: 'border-box', margin: '0px' }}>
+                                                                    <img
+                                                                        src={getUserName.avatar}
+                                                                        style={{ display: 'block', inset: '0px', boxSizing: 'border-box', maxHeight: '100%', minHeight: '100%', maxWidth: '100%', minWidth: '100%', margin: '0px', padding: '0px' }} />
+                                                                </div>
+                                                            </span>
+                                                            <div className="menu-user_profile__3-Kt7">
+                                                                <h5 className="menu-user_profileName__s57GF">
+                                                                    {getUserName.name}
+                                                                </h5>
+                                                                <span className="menu-user_profileLevel__pcFEQ">
+                                                                    {getUserName.role}
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li className="menu-user_menuItem__3mnbP">
+                                                        <Link to='#'>
+                                                            <UserOutlined
+                                                                style={{ marginRight: '16px', fontSize: '18px' }}
+                                                                className="svg-icon undefined undefined" />
+                                                            Thông tin tài khoản
+                                                        </Link>
+                                                    </li>
+                                                    <li className="menu-user_menuItem__3mnbP">
+                                                        <Link to='#'>
+                                                            <AccountBalanceWallet
+                                                                style={{ marginRight: '12px' }}
+                                                                className="svg-icon undefined undefined" />
+                                                            Series
+                                                        </Link>
+                                                    </li>
+                                                    <li className="menu-user_menuItem__3mnbP">
+                                                        <Link to='#' onClick={() => logOut()}>
+                                                            <LogoutOutlined
+                                                                style={{ marginRight: '16px', fontSize: '18px' }}
+                                                                className="svg-icon undefined undefined" />
+                                                            Đăng Xuất
+                                                        </Link>
+                                                    </li>
+                                                </ul>}
+                                            </div>
+                                        </Fragment>) :
+                                            (<Fragment>
+                                                <div className="flex mx-4 tracking-btn-register-article-detail">
+                                                    <button type="button" className="styles_btn__1CpdT styles_btn-medium__1pU1Q styles_btn--text__3i2gd styles_color--primary__2hQHw tracking-btn-register-article-detail" aria-label="Register">
+                                                        <div className="styles_content-medium__1DXcn tracking-btn-register-article-detail flex items-center">
+                                                            Đăng ký
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                                <div className="header-action-item mr-4 tracking-btn-login-article-detail">
+                                                    <Link to='/login'>
+                                                        <button type="button" className="styles_btn__1CpdT styles_btn-medium__1pU1Q styles_btn--default__eE97u styles_color--primary__2hQHw tracking-btn-login-article-detail" aria-label="Login">
+                                                            <div className="styles_content-medium__1DXcn tracking-btn-login-article-detail flex items-center">
+                                                                Đăng nhập
+                                                            </div>
+                                                        </button>
+                                                    </Link>
+                                                </div>
+                                            </Fragment>)}
+
                                         <div className="header-action-item">
                                             <div className="styles_block-menu-header__2q3Xf tracking-dropdown-navbar">
                                                 <button aria-label="menu dropdown" className="styles_btn-handle-menu__3oCcx tracking-dropdown-navbar" onClick={() => setIsMenuBar(!isMenuBar)}>

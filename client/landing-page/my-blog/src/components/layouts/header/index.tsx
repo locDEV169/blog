@@ -126,7 +126,7 @@ export default function HeaderLayout() {
                                                     <use xlinkHref="#iconSearch"></use>
                                                     <Search className="#iconSearch"/>
                                                 </svg> */}
-                                                <Search className="svg-icon undefined tracking-search-icon-article-detail" />
+                                                <Search className="svg-icon undefined tracking-search-icon-article-detail" style={{ color: "gray" }} />
                                             </a>
                                         </div>
                                         {getUserName ? (<Fragment>
@@ -192,11 +192,13 @@ export default function HeaderLayout() {
                                         </Fragment>) :
                                             (<Fragment>
                                                 <div className="flex mx-4 tracking-btn-register-article-detail">
-                                                    <button type="button" className="styles_btn__1CpdT styles_btn-medium__1pU1Q styles_btn--text__3i2gd styles_color--primary__2hQHw tracking-btn-register-article-detail" aria-label="Register">
-                                                        <div className="styles_content-medium__1DXcn tracking-btn-register-article-detail flex items-center">
-                                                            Đăng ký
-                                                        </div>
-                                                    </button>
+                                                    <Link to='/register'>
+                                                        <button type="button" className="styles_btn__1CpdT styles_btn-medium__1pU1Q styles_btn--text__3i2gd styles_color--primary__2hQHw tracking-btn-register-article-detail" aria-label="Register">
+                                                            <div className="styles_content-medium__1DXcn tracking-btn-register-article-detail flex items-center">
+                                                                Đăng ký
+                                                            </div>
+                                                        </button>
+                                                    </Link>
                                                 </div>
                                                 <div className="header-action-item mr-4 tracking-btn-login-article-detail">
                                                     <Link to='/login'>

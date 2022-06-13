@@ -12,6 +12,20 @@ export class BlogController {
         private blogService: BlogService
     ) { }
 
+    @Get('newest')
+    getBlogByNewest(
+        @Query('number') number:number
+    ){
+        return this.blogService.getBlogByNewest(number);
+    }
+
+    @Get('view')
+    getBlogByView(
+        @Query('number') number:number
+    ){
+        return this.blogService.getBlogByView(number);
+    }
+
     @Post()
     @UseGuards(RoleGuard('user'))
     createBlog(
@@ -22,8 +36,10 @@ export class BlogController {
     }
 
     @Get()
-    getAllBlog() {
-        return this.blogService.getAllBlogs();
+    getAllBlog(
+        @Query('number') number:number
+    ) {
+        return this.blogService.getAllBlogs(number);
     }
 
     @Get(':id')
@@ -52,4 +68,5 @@ export class BlogController {
     ){
         return this.blogService.deleteBlog(id,user);
     }
+
 }

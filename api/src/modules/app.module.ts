@@ -37,16 +37,16 @@ import { TypeOrmModule } from '@nestjs/typeorm';
         }
       }
     }),
-    MongooseModule.forRootAsync({
-      imports: [ConfigModule],
-      inject: [ConfigService],
-      useFactory: async (configService: ConfigService) => {
-        return {
-          uri: `${configService.get('DB_URL')||'mongodb+srv://quangtung:123456789xx@cluster0.wmzvr.mongodb.net/blog-app?retryWrites=true&w=majority'}`,
-          dbName: `${configService.get('MDB_NAME')||'blog-app'}`,
-        }
-      }
-    }),
+    // MongooseModule.forRootAsync({
+    //   imports: [ConfigModule],
+    //   inject: [ConfigService],
+    //   useFactory: async (configService: ConfigService) => {
+    //     return {
+    //       uri: `${configService.get('DB_URL')||'mongodb+srv://quangtung:123456789xx@cluster0.wmzvr.mongodb.net/blog-app?retryWrites=true&w=majority'}`,
+    //       dbName: `${configService.get('MDB_NAME')||'blog-app'}`,
+    //     }
+    //   }
+    // }),
 
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '../../', 'client/build'),

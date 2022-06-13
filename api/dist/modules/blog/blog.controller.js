@@ -21,11 +21,17 @@ let BlogController = class BlogController {
     constructor(blogService) {
         this.blogService = blogService;
     }
+    getBlogByNewest(number) {
+        return this.blogService.getBlogByNewest(number);
+    }
+    getBlogByView(number) {
+        return this.blogService.getBlogByView(number);
+    }
     createBlog(user, newBlogDto) {
         return this.blogService.createBlog(user, newBlogDto);
     }
-    getAllBlog() {
-        return this.blogService.getAllBlogs();
+    getAllBlog(number) {
+        return this.blogService.getAllBlogs(number);
     }
     getBlogById(id) {
         return this.blogService.getBlogById(id);
@@ -38,6 +44,20 @@ let BlogController = class BlogController {
     }
 };
 __decorate([
+    (0, common_1.Get)('newest'),
+    __param(0, (0, common_1.Query)('number')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Number]),
+    __metadata("design:returntype", void 0)
+], BlogController.prototype, "getBlogByNewest", null);
+__decorate([
+    (0, common_1.Get)('view'),
+    __param(0, (0, common_1.Query)('number')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Number]),
+    __metadata("design:returntype", void 0)
+], BlogController.prototype, "getBlogByView", null);
+__decorate([
     (0, common_1.Post)(),
     (0, common_1.UseGuards)((0, role_guard_1.default)('user')),
     __param(0, (0, get_user_decorator_1.GetUser)()),
@@ -48,8 +68,9 @@ __decorate([
 ], BlogController.prototype, "createBlog", null);
 __decorate([
     (0, common_1.Get)(),
+    __param(0, (0, common_1.Query)('number')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
+    __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", void 0)
 ], BlogController.prototype, "getAllBlog", null);
 __decorate([

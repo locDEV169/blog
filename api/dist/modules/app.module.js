@@ -9,7 +9,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const config_1 = require("@nestjs/config");
-const mongoose_1 = require("@nestjs/mongoose");
 const serve_static_1 = require("@nestjs/serve-static");
 const path_1 = require("path");
 const auth_module_1 = require("./auth/auth.module");
@@ -42,16 +41,6 @@ AppModule = __decorate([
                         username: configService.get('DB_USERNAME'),
                         password: configService.get('DB_PASSWORD'),
                         database: configService.get('DB_NAME'),
-                    };
-                }
-            }),
-            mongoose_1.MongooseModule.forRootAsync({
-                imports: [config_1.ConfigModule],
-                inject: [config_1.ConfigService],
-                useFactory: async (configService) => {
-                    return {
-                        uri: `${configService.get('DB_URL') || 'mongodb+srv://quangtung:123456789xx@cluster0.wmzvr.mongodb.net/blog-app?retryWrites=true&w=majority'}`,
-                        dbName: `${configService.get('MDB_NAME') || 'blog-app'}`,
                     };
                 }
             }),

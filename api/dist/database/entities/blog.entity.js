@@ -47,6 +47,14 @@ __decorate([
     (0, typeorm_1.ManyToOne)(() => sub_category_entity_1.SubCategory, subCategory => subCategory.blogs),
     __metadata("design:type", sub_category_entity_1.SubCategory)
 ], Blog.prototype, "subCategory", void 0);
+__decorate([
+    (0, typeorm_1.CreateDateColumn)({ type: "timestamp", default: () => "CURRENT_TIMESTAMP(6)" }),
+    __metadata("design:type", Date)
+], Blog.prototype, "created_at", void 0);
+__decorate([
+    (0, typeorm_1.UpdateDateColumn)({ type: "timestamp", default: () => "CURRENT_TIMESTAMP(6)", onUpdate: "CURRENT_TIMESTAMP(6)" }),
+    __metadata("design:type", Date)
+], Blog.prototype, "updated_at", void 0);
 Blog = __decorate([
     (0, typeorm_1.Entity)()
 ], Blog);

@@ -44,14 +44,21 @@ let BlogService = class BlogService {
             throw new common_1.BadRequestException({ msg: error.message });
         }
     }
-    async getAllBlogs() {
+    async getAllBlogs(number = 0) {
+        if (number === 0) {
+            return await this.blogRepository.find({
+                relations: ['subCategory', 'subCategory.category'],
+            });
+        }
         return await this.blogRepository.find({
-            relations: ['subCategory', 'subCategory.category']
+            relations: ['subCategory', 'subCategory.category'],
+            take: number
         });
     }
     async getBlogById(id) {
         return await this.blogRepository.findOne({
-            relations: ['subCategory', 'subCategory.category']
+            relations: ['subCategory', 'subCategory.category'],
+            where: { id: id }
         });
     }
     async updateBlog(id, user, body) {
@@ -69,6 +76,18 @@ let BlogService = class BlogService {
         }
         await this.blogRepository.delete(id);
         return { msg: 'Delete blog success' };
+    }
+    async getBlogByNewest(number = 0) {
+        if (number === 0) {
+            return await this.blogRepository.find({ order: { created_at: 'DESC' } });
+        }
+        return await this.blogRepository.find({ order: { created_at: 'DESC' }, take: number });
+    }
+    async getBlogByView(number = 0) {
+        if (number === 0) {
+            return await this.blogRepository.find({ order: { view: 'DESC' } });
+        }
+        return await this.blogRepository.find({ order: { view: 'DESC' }, take: number });
     }
 };
 BlogService = __decorate([

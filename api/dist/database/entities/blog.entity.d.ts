@@ -9,4 +9,6 @@ export declare class Blog {
     thumbnail: string;
     user: User;
     subCategory: SubCategory;
+    created_at: Date;
+    updated_at: Date;
 }

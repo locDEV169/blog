@@ -18,7 +18,7 @@ export declare class BlogService {
             subCategory: any;
         } & Blog;
     }>;
-    getAllBlogs(): Promise<Blog[]>;
+    getAllBlogs(number?: number): Promise<Blog[]>;
     getBlogById(id: string): Promise<Blog>;
     updateBlog(id: string, user: any, body: any): Promise<{
         msg: string;
@@ -26,4 +26,6 @@ export declare class BlogService {
     deleteBlog(id: string, user: any): Promise<{
         msg: string;
     }>;
+    getBlogByNewest(number?: number): Promise<Blog[]>;
+    getBlogByView(number?: number): Promise<Blog[]>;
 }

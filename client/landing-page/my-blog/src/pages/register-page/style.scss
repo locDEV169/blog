@@ -1,0 +1,13 @@
+.register-button-form {
+  .register-form-button {
+    color: #fff;
+    border-color: #00773e;
+    background-color: #00773e;
+    text-shadow: none;
+    &:hover {
+      color: #fff;
+      border-color: #009e52;
+      background-color: #009e52;
+    }
+  }
+}
